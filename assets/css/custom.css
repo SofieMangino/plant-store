@@ -46,8 +46,13 @@ element {
     color:   #424949 !important;
 }
 
+.btn-outline-primary {
+    color: #424949;
+    border-color: #239b56;
+}
+
 .btn, .btn:hover {
-    color: #239b56;
+    color: #424949;
 }
 
 #index_banner .carousel-control-prev i, #index_banner .carousel-control-next i {
@@ -81,4 +86,43 @@ element {
     position: absolute;
     border-bottom: 5px solid #239b56;
     padding-top: .5em;
+}
+
+.h2 {
+    font-size: 40px;
+    color: #424949 !important;
+}
+
+.text-light {
+    color: #424949 !important;
+}
+
+.bg-secondary {
+    background-color:   #eafaf1 !important;
+}
+
+.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:hover {
+    color: #424949 !important;
+    background-color:  #f0f3f4;
+    border-color:  #f0f3f4;
+}
+
+.service-work.card {
+
+}
+
+.service-work .service-work-vertical {
+      background: none;
+}
+
+.recent-work .recent-work-vertical {
+    background: rgb(255,255,255);
+    background: (rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
 }
