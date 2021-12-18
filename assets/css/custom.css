@@ -98,17 +98,19 @@ element {
 }
 
 .bg-secondary {
-    background-color:   #eafaf1 !important;
+    background-color: #eafaf1 !important;
 }
 
-.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:hover {
+.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:hover, .btn-primary, .btn-primary:hover {
     color: #424949 !important;
     background-color:  #f0f3f4;
     border-color:  #f0f3f4;
 }
 
-.service-work.card {
-
+.btn-primary, .btn-primary:hover {
+  color: #424949 !important;
+  background-color:  #f0f3f4;
+  border-color:  #f0f3f4;
 }
 
 .service-work .service-work-vertical {
@@ -116,13 +118,63 @@ element {
 }
 
 .recent-work .recent-work-vertical {
-    background: rgb(255,255,255);
-    background: (rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
-        background-position-x: 0%;
-        background-position-y: 0%;
-        background-size: auto;
-    background-size: 300% 300%;
-    background-position: 0% 100%;
-    transition: .5s;
-    cursor: pointer;
+    background: none;
+}
+
+.bg-primary {
+    background-color:  #eafaf1 !important;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #239b56;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.why-us {
+    background: rgb(248,249,249);
+    background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(0deg, rgba( 248,249,249,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(0deg, rgba(248,249,249) 50%, rgba(248,249,249) 50%);
+        background-color: rgba(0, 0, 0, 0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
+}
+
+.text-light {
+    color: #424949 !important;
+}
+
+.bx {
+    font-family: 'boxicons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-secondary {
+    background-color:  #145a32 !important;
+}
+
+.bg-secondary, .pt-4 {
+    background-color: #eafaf1 !important;
+}
+
+.bg-light {
+  background: rgb(248,249,249);
+  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgba( 248,249,249,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(0deg, rgba(248,249,249) 50%, rgba(248,249,249) 50%);
 }
