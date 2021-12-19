@@ -101,16 +101,10 @@ element {
     background-color: #eafaf1 !important;
 }
 
-.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:hover, .btn-primary, .btn-primary:hover {
+.btn-check:active + .btn-outline-primary, .btn-check:checked + .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:hover, .btn-primary, .btn-primary:hover, .btn-secondary, .btn-secondary:hover {
     color: #424949 !important;
     background-color:  #f0f3f4;
     border-color:  #f0f3f4;
-}
-
-.btn-primary, .btn-primary:hover {
-  color: #424949 !important;
-  background-color:  #f0f3f4;
-  border-color:  #f0f3f4;
 }
 
 .service-work .service-work-vertical {
@@ -148,7 +142,7 @@ element {
 }
 
 .text-light {
-    color: #424949 !important;
+    color: #020604 !important;
 }
 
 .bx {
@@ -168,13 +162,28 @@ element {
     background-color:  #145a32 !important;
 }
 
-.bg-secondary, .pt-4 {
-    background-color: #eafaf1 !important;
-}
+
 
 .bg-light {
   background: rgb(248,249,249);
   background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
   background: -webkit-linear-gradient(0deg, rgba( 248,249,249,1) 50%, rgba(255,255,255,1) 50%);
   background: linear-gradient(0deg, rgba(248,249,249) 50%, rgba(248,249,249) 50%);
+}
+
+.btn, .btn:hover {
+    color: #424949;
+}
+.btn-secondary {
+  color: #424949 !important;
+  background-color:  #f0f3f4;
+  border-color:  #f0f3f4;
+}
+
+#work_banner {
+    background-image: url('./../img/leaf2.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
